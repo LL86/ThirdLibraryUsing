@@ -7,6 +7,16 @@
 //
 
 #import "ViewController.h"
+#import "LayoutViewController.h"
+
+typedef NS_ENUM(NSInteger, SELECTINDEX){
+
+    SELECT_MASONRY,
+    SELECT_FMDB,
+    SELECT_RAC,
+    SELECT_SSKEYCHAIN
+    
+};
 
 @interface ViewController ()<UITableViewDataSource, UITableViewDelegate>
 
@@ -34,6 +44,8 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
 
+    self.title = @"Test";
+    
     [self initMainTable];
     
 }
@@ -71,7 +83,19 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
 
+    NSInteger selectIdx = indexPath.row;
     
+    switch (selectIdx) {
+        case SELECT_MASONRY:{
+        
+            LayoutViewController *masonryTest = [[LayoutViewController alloc] init];
+            [self.navigationController pushViewController:masonryTest animated:YES];
+            
+        }break;
+            
+        default:
+            break;
+    }
 }
 
 - (void)didReceiveMemoryWarning {
