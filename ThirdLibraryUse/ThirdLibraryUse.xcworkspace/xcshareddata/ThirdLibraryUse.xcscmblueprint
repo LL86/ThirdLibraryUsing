@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "C73DE9C9BC1332B72B76840C804BC843F713A21E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "C73DE9C9BC1332B72B76840C804BC843F713A21E" : 0,
+    "23BE8E6830D5BD2AF7637BBA4C4B4FC13AEDD849" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "84B4D13A-8873-4056-A7DF-422075535172",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "C73DE9C9BC1332B72B76840C804BC843F713A21E" : "ThirdLibraryUsing\/",
+    "23BE8E6830D5BD2AF7637BBA4C4B4FC13AEDD849" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ThirdLibraryUse",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ThirdLibraryUse\/ThirdLibraryUse.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:LL86\/MultiplePictureChoice.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "23BE8E6830D5BD2AF7637BBA4C4B4FC13AEDD849"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:LL86\/ThirdLibraryUsing.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C73DE9C9BC1332B72B76840C804BC843F713A21E"
+    }
+  ]
+}

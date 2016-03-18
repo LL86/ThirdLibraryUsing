@@ -10,11 +10,6 @@
 
 @interface LayoutViewController ()
 
-@property (nonatomic ,strong) UITextField *accountTF;
-@property (nonatomic ,strong) UITextField *passwordTF;
-
-@property (nonatomic, strong) UIButton *loginBtn;
-
 @end
 
 @implementation LayoutViewController
