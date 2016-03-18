@@ -17,6 +17,7 @@
 		F04C8CAF1C8D61F7004CB288 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F04C8CAD1C8D61F7004CB288 /* LaunchScreen.storyboard */; };
 		F04C8CBA1C8D61F8004CB288 /* ThirdLibraryUseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F04C8CB91C8D61F8004CB288 /* ThirdLibraryUseTests.m */; };
 		F04C8CCA1C8D8120004CB288 /* LayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F04C8CC91C8D8120004CB288 /* LayoutViewController.m */; };
+		F04C8D321C8FAFC5004CB288 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F04C8D311C8FAFC5004CB288 /* LoginViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,8 @@
 		F04C8CC41C8D792D004CB288 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		F04C8CC81C8D8120004CB288 /* LayoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayoutViewController.h; sourceTree = "<group>"; };
 		F04C8CC91C8D8120004CB288 /* LayoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayoutViewController.m; sourceTree = "<group>"; };
+		F04C8D301C8FAFC5004CB288 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		F04C8D311C8FAFC5004CB288 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +153,8 @@
 		F04C8CCB1C8D8171004CB288 /* RACTest */ = {
 			isa = PBXGroup;
 			children = (
+				F04C8D301C8FAFC5004CB288 /* LoginViewController.h */,
+				F04C8D311C8FAFC5004CB288 /* LoginViewController.m */,
 			);
 			path = RACTest;
 			sourceTree = "<group>";
@@ -330,6 +335,7 @@
 			files = (
 				F04C8CA41C8D61F7004CB288 /* ViewController.m in Sources */,
 				F04C8CCA1C8D8120004CB288 /* LayoutViewController.m in Sources */,
+				F04C8D321C8FAFC5004CB288 /* LoginViewController.m in Sources */,
 				F04C8CAA1C8D61F7004CB288 /* ThirdLibraryUse.xcdatamodeld in Sources */,
 				F04C8CA11C8D61F7004CB288 /* AppDelegate.m in Sources */,
 				F04C8C9E1C8D61F7004CB288 /* main.m in Sources */,

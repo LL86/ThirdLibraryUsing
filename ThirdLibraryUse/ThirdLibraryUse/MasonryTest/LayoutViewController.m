@@ -10,6 +10,11 @@
 
 @interface LayoutViewController ()
 
+@property (nonatomic ,strong) UITextField *accountTF;
+@property (nonatomic ,strong) UITextField *passwordTF;
+
+@property (nonatomic, strong) UIButton *loginBtn;
+
 @end
 
 @implementation LayoutViewController
@@ -18,10 +23,10 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.view.backgroundColor = [UIColor whiteColor];
-    
-    
+
     
 }
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

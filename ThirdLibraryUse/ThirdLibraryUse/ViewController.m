@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "LayoutViewController.h"
+#import "LoginViewController.h"
 
 typedef NS_ENUM(NSInteger, SELECTINDEX){
 
@@ -90,6 +91,12 @@ typedef NS_ENUM(NSInteger, SELECTINDEX){
         
             LayoutViewController *masonryTest = [[LayoutViewController alloc] init];
             [self.navigationController pushViewController:masonryTest animated:YES];
+            
+        }break;
+        case SELECT_RAC:{
+        
+            LoginViewController *loginVc = [[LoginViewController alloc] init];
+            [self.navigationController pushViewController:loginVc animated:YES];
             
         }break;
             
