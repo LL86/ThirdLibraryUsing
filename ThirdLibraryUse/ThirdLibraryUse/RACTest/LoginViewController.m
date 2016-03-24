@@ -35,11 +35,12 @@ static NSString * const kAFViewShakerAnimationKey = @"kAFViewShakerAnimationKey"
     
     [self initSubViews];
     
-    [self.accountTF.rac_textSignal subscribeNext:^(id x){
-       
+    
+    [_accountTF.rac_textSignal subscribeNext:^(id x) {
         
+        NSLog(@"%@",x);
     }];
-
+    
 }
 
 #pragma mark  - 视图创建
@@ -183,6 +184,7 @@ static NSString * const kAFViewShakerAnimationKey = @"kAFViewShakerAnimationKey"
 //在UITextField 编辑之前调用方法
 - (void)textFieldDidBeginEditing:(UITextField *)textField
 {
+    
     [UIView beginAnimations:@"Animation" context:nil];
     [UIView setAnimationDuration:0.20];
     [UIView setAnimationBeginsFromCurrentState: YES];

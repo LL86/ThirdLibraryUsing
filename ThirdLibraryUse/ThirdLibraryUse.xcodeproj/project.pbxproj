@@ -193,7 +193,6 @@
 				F04C8C951C8D61F7004CB288 /* Sources */,
 				F04C8C961C8D61F7004CB288 /* Frameworks */,
 				F04C8C971C8D61F7004CB288 /* Resources */,
-				C79535B624E5DCF9896BD606 /* Embed Pods Frameworks */,
 				B99A46F523B529FD926F0603 /* Copy Pods Resources */,
 			);
 			buildRules = (
@@ -234,6 +233,7 @@
 				TargetAttributes = {
 					F04C8C981C8D61F7004CB288 = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = VW3STVTB3X;
 					};
 					F04C8CB41C8D61F8004CB288 = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -309,21 +309,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C79535B624E5DCF9896BD606 /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -467,6 +452,7 @@
 			baseConfigurationReference = 965B6852A606E7BD1D1E814E /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/ThirdLibraryUse/PrefixHeader.pch";
@@ -482,6 +468,7 @@
 			baseConfigurationReference = 544C72CF0575BB9782E8F456 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/ThirdLibraryUse/PrefixHeader.pch";

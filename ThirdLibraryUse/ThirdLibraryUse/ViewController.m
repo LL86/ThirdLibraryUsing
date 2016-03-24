@@ -10,13 +10,13 @@
 #import "LayoutViewController.h"
 #import "LoginViewController.h"
 
+
 typedef NS_ENUM(NSInteger, SELECTINDEX){
 
     SELECT_MASONRY,
     SELECT_FMDB,
     SELECT_RAC,
     SELECT_SSKEYCHAIN
-    
 };
 
 @interface ViewController ()<UITableViewDataSource, UITableViewDelegate>
@@ -34,7 +34,7 @@ typedef NS_ENUM(NSInteger, SELECTINDEX){
 
     if (!_subArr) {
         
-        _subArr = [NSArray arrayWithObjects:@"Masonry",@"FMDB",@"ReactiveCocoa",@"SSkeyChain", nil];
+        _subArr = [NSArray arrayWithObjects:@"Masonry",@"FMDB",@"ReactiveCocoa",@"SSkeyChain",nil];
     }
     
     return _subArr;
@@ -99,7 +99,7 @@ typedef NS_ENUM(NSInteger, SELECTINDEX){
             [self.navigationController pushViewController:loginVc animated:YES];
             
         }break;
-            
+   
         default:
             break;
     }
