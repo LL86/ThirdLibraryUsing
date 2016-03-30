@@ -35,10 +35,15 @@ static NSString * const kAFViewShakerAnimationKey = @"kAFViewShakerAnimationKey"
     
     [self initSubViews];
     
-    
-    [_accountTF.rac_textSignal subscribeNext:^(id x) {
+    // 
+    [[self.accountTF.rac_textSignal filter:^BOOL(id value) {
         
-        NSLog(@"%@",x);
+        NSString *text  = value;
+        return text.length > 3;
+        
+    }] subscribeNext:^(id x) {
+        
+         NSLog(@"%@", x);
     }];
     
 }
